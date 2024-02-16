@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: rgb(221, 179, 125);
+        }
+        textarea{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        label{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input,textarea{
+            background-color: rgba(202, 226, 220, 0.966);
+            border-radius: 5px ;
+        }
+        .ok{
+            background-color: green;
+            color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet perferendis, incidunt dolorum quo illum eos suscipit autem unde, nam dolor iure, rem quis. Minima, hic!</p>
+    <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae mollitia tenetur hic. Ea dolores deleniti optio beatae odit ipsam repellendus velit, sed reprehenderit porro voluptatem.</pre> -->
+    <fieldset>
+        <legend>Fill the form</legend>
+        <table cellspacing="25px">
+            <form>
+                <tr>
+                    <td><label for="id101">Name</label></td> 
+                    <td><span>:</span></td>
+                    <td><input type="text" placeholder="Name" id="id101"required><sup style="color: red;">*</sup></td>
+                </tr> 
+                <tr> 
+                    <td><label for="id102">Email</label></td>
+                    <td><span>:</span></td>
+                    <td><input type="email" placeholder="Enter your Email" id="id102"required></td>
+                </tr>
+                <tr>
+                    <td><label for="id103">Password</label></td>
+                    <td><span>:</span></td>
+                        <td><input type="password" placeholder="Enter your Paassword" id="id103"required></td>
+                </tr>
+                <tr>
+                    <td><label for="id104">Address</label></td>
+                    <td><span>:</span>
+                        <td><textarea  id="id104" placeholder="Enter your address"cols="20" rows="5"required></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="id105">Upload your file</label></td>
+                    <td><span>:</span>
+                        <td><input type="file" name="" id="id10r"required></td>
+                </tr>
+                <tr> 
+                    <td><label >Hobbies</label></td>
+                    <td><span>:</span></td>
+                    <td><label for="id106">cricket</label>
+                        <input type="checkbox" id="id106">
+                        <span>footbal</span>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td><span>:</span></td>
+                    <td><label for="id107">Male</label><input type="radio" id="id107"name="gender">
+                        <label for="id108">Female</label><input type="radio" id="id108"name="gender" required>
+                        <span>Other</span><input type="radio" name="gender"required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="id110">color</label></td>
+                    <td><span>:</span></td>
+                    <td><input type="color"id="id110"></td>
+                </tr>
+                <tr>
+                    <td><label for="id111">Date and Time</label></td>
+                    <td><span>:</span></td>
+                    <td><input type="datetime-local"id="id111"></td>
+                </tr>
+                <tr>
+                    <td><label for="id112">Date</label></td>
+                    <td><span>:</span></td>
+                    <td><input type="date"id="id112"></td>
+                </tr>
+                <tr>
+                    <td><label for="id114">Phone No.</label></td>
+                    <td><span>:</span></td>
+                    <td><input type="tel" maxlength="10" id="id114":></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <td><input class="ok" type="submit"></td>
+                </tr>
+            </form>
+        </table>
+</body>
+</html>
